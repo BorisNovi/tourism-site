@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Montserrat;
+  src: url(../src/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  scroll-behavior: smooth;
+  font-family: Montserrat;
+  margin: 0 auto;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+  &:visited {
+    color: #252525;
+  }
+}

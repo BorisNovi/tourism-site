@@ -1,0 +1,255 @@
+* {
+  max-width: 1440px;
+}
+
+.header {
+  margin: 30px 0;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-btn {
+      margin: 0 10px;
+    }
+
+    .directions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffd600;
+      height: 50px;
+      width: 186px;
+      margin: 0 33px;
+      border-radius: 50px;
+
+      img {
+        width: 8px
+      }
+    }
+
+    .about {
+      margin: 0 20px;
+    }
+
+    .blog {
+      margin: 0 35px;
+    }
+
+    .help {
+      margin: 0 17px;
+
+      img {
+        width: 8px
+      }
+    }
+  }
+
+  .user-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .favourites {
+      margin: 0 38px;
+
+      a>img {
+        margin-top: 5px;
+      }
+    }
+
+    .sign-in {
+      margin: 0 30px;
+
+      a {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+content {
+  display: flex;
+  // height: 5400px; // delete after footer done
+}
+
+.footer {
+  background-color: #fbfbfb;
+  padding: 70px 16px;
+  font-size: 15px;
+
+  .footer-main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 78px;
+    margin-bottom: 80px;
+
+    .apps {
+      .icon {
+        margin: 15px 0;
+      }
+
+      p {
+        display: block;
+        line-height: 25px;
+        padding: 25px 0 5px 0;
+      }
+
+      .download {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 7px;
+      }
+    }
+
+    .service {
+      padding-left: 15px;
+
+      .service-heading {
+        letter-spacing: 0.5px;
+      }
+
+      .service-links {
+        padding-top: 5px;
+
+        div {
+          font-size: 14px;
+          text-wrap: nowrap;
+          padding: 8px 0 9px 0;
+        }
+      }
+    }
+
+    .for-guides {
+      .for-guides-heading {
+        letter-spacing: 0.5px;
+      }
+
+      .for-guides-links {
+        padding-top: 5px;
+
+        div {
+          font-size: 14px;
+          text-wrap: nowrap;
+          padding: 8px 0 9px 0;
+        }
+      }
+    }
+
+    .docs {
+      .docs-heading {
+        letter-spacing: 0.5px;
+      }
+
+      .docs-links {
+        padding-top: 5px;
+
+        div {
+          line-height: 25px;
+          font-size: 14px;
+          text-wrap: nowrap;
+          padding: 6px 0 4px 0;
+        }
+      }
+    }
+
+    .support {
+      padding-left: 5px;
+
+      .support-heading {
+        letter-spacing: 0.5px;
+      }
+
+      .support-links {
+        padding-top: 5px;
+
+        div {
+          line-height: 25px;
+          font-size: 14px;
+          text-wrap: wrap;
+          padding: 3px 0 8px 0;
+
+          p {
+            margin: 0;
+          }
+
+          a {
+            display: flex;
+            align-items: baseline;
+            gap: 3px;
+
+            img {
+              padding: 0 2px;
+            }
+          }
+        }
+      }
+
+      .support-social {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 14px;
+
+        div {
+          height: 39px;
+          width: 39px;
+          border-radius: 5px;
+          border: 1px solid #dfdfdf;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+      }
+    }
+  }
+
+  .footer-license-info {
+    border-top: 1px solid #e2e2e2;
+    padding: 12px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .license-left {
+      font-size: 13px;
+    }
+
+    .license-right {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 75px;
+
+      .pay-systems {
+        display: flex;
+      }
+
+      .license-design {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
