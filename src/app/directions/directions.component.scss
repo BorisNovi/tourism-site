@@ -1,0 +1,83 @@
+.directions-container {
+  margin: 95px 0 auto;
+  padding: 0 15px;
+
+  .heading-container {
+    margin-bottom: 65px;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+  }
+
+  .cities-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+
+    .city {
+      box-sizing: border-box;
+      min-width: 450px;
+      height: 490px;
+      border-radius: 20px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 37px 45px;
+
+      .city-info {
+        padding: 1px;
+
+        .city-heading {
+          font-size: 22px;
+          color: #fff;
+          h4 {
+            margin-bottom: 23px;
+          }
+        }
+
+        .tours-count {
+          button {
+            cursor: pointer;
+            border: none;
+            border-radius: 100px;
+            background-color: #ffd600;
+            color: #252525;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            padding: 10px 20px;
+          }
+        }
+      }
+
+    }
+
+    .city:nth-child(1) {
+      background-image: url('../../assets/app-directions-images/dubai.png');
+    }
+
+    .city:nth-child(2) {
+      background-image: url('../../assets/app-directions-images/istambul.png');
+    }
+
+    .city:nth-child(3) {
+      background-image: url('../../assets/app-directions-images/saint-petersburg.png');
+    }
+
+    .city:nth-child(4) {
+      background-image: url('../../assets/app-directions-images/germany-river.png');
+    }
+
+    .city:nth-child(5) {
+      background-image: url('../../assets/app-directions-images/kaliningrad.png');
+    }
+
+    .city:nth-child(6) {
+      background-image: url('../../assets/app-directions-images/murmansk.png');
+    }
+  }
+}
