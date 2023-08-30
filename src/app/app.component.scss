@@ -58,9 +58,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 18px;
 
     .favourites {
-      margin: 0 38px;
+      width: 50px;
+      height: 50px;
+      background-color: #f5f5f5;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       a>img {
         margin-top: 5px;
@@ -68,7 +75,13 @@
     }
 
     .sign-in {
-      margin: 0 30px;
+      width: 115px;
+      height: 50px;
+      background-color: #f5f5f5;
+      border-radius: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       a {
         font-weight: 500;
@@ -79,7 +92,7 @@
 
 .footer {
   background-color: #fbfbfb;
-  padding: 70px 16px;
+  padding: 70px 16px 0px;
   font-size: 15px;
 
   .footer-main-info {
