@@ -1,0 +1,187 @@
+.feedbacks-container {
+  height: 600px;
+  margin: 105px auto 0;
+  padding: 0 16px;
+  box-shadow: 0 -400px 20px rgba(0, 0, 0, 0.03) inset;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  .feedback-inner {
+    padding: 40px 100px;
+    width: 1240px;
+    height: 405px;
+    border-radius: 20px;
+    box-shadow: 0 27px 31px rgba(0, 0, 0, 0.02);
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 192px;
+
+    .feedback-left {
+      min-width: 320px;
+
+      .heading {
+        margin-bottom: 67px;
+
+        h2 {
+          font-size: 36px;
+          font-weight: 800;
+          margin-bottom: 22px;
+        }
+
+        p {
+          line-height: 26px;
+        }
+      }
+
+      .feedback-make {
+        button {
+          box-sizing: border-box;
+          width: 175px;
+          height: 55px;
+          background-color: #ffd600;
+          border: none;
+          border-radius: 100px;
+          font-size: 15px;
+          letter-spacing: 0.9px;
+        }
+      }
+    }
+
+    .feedback-right {
+
+      .slider-element {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+
+        .photo {
+          margin-top: 36px;
+
+          img {
+            height: 130px;
+            width: 130px;
+          }
+        }
+
+        .feedback-content {
+          margin: 7px 0 0 3px;
+
+          .username {
+            border-bottom: 1px solid #ebebeb;
+
+            h5 {
+              font-size: 17px;
+              margin-bottom: 17px;
+              font-weight: 500;
+            }
+          }
+
+          .tour-type {
+            margin: 12px 0;
+            padding: 0 0 12px 0;
+            border-bottom: 1px solid #ebebeb;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 48px;
+
+            .tour-name {
+              font-size: 14px;
+
+              span {
+                color: #7b7b7b;
+              }
+
+              a {
+                text-decoration: underline;
+              }
+            }
+
+            .rating {
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: flex-start;
+              gap: 15px;
+
+              span {
+                font-size: 14px;
+              }
+
+              .stars {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+              }
+            }
+          }
+
+          .feedback-text {
+            max-width: 565px;
+            margin-top: 17px;
+            line-height: 26px;
+            text-wrap: nowrap;
+          }
+        }
+      }
+
+      .slider-buttons {
+        margin: 38px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 32px;
+
+        .triggers {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 13px;
+
+          div {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #e2e2e2;
+          }
+
+          div:nth-child(2) {
+            background-color: #ffd600;
+          }
+        }
+
+        .arrows {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+
+          .arrow-prev,
+          .arrow-next {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            border-radius: 50%;
+            width: 46px;
+            height: 46px;
+          }
+        }
+      }
+    }
+  }
+}
