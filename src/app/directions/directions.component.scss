@@ -14,6 +14,7 @@
 
   .cities-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 45px;
 
@@ -22,8 +23,8 @@
       min-width: 450px;
       height: 490px;
       border-radius: 20px;
-      background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
       display: flex;
       justify-content: flex-start;
       align-items: flex-end;
@@ -57,27 +58,39 @@
     }
 
     .city:nth-child(1) {
-      background-image: url('../../assets/app-directions-images/dubai.png');
+      background: linear-gradient(30deg, rgba(0,0,0,0.8029805672268908) 0%, rgba(255,255,255,0) 40%),
+      url('../../assets/app-directions-images/dubai.png');
+      background-size: 100%;
     }
 
     .city:nth-child(2) {
-      background-image: url('../../assets/app-directions-images/istambul.png');
+      background-image: linear-gradient(30deg, rgba(0,0,0,0.8029805672268908) 0%, rgba(255,255,255,0) 40%),
+      url('../../assets/app-directions-images/istambul.png');
+      background-size: 100%;
     }
 
     .city:nth-child(3) {
-      background-image: url('../../assets/app-directions-images/saint-petersburg.png');
+      background-image: linear-gradient(30deg, rgba(0,0,0,0.8029805672268908) 0%, rgba(255,255,255,0) 40%),
+      url('../../assets/app-directions-images/saint-petersburg.png');
+      background-size: 100%;
     }
 
     .city:nth-child(4) {
-      background-image: url('../../assets/app-directions-images/germany-river.png');
+      background-image: linear-gradient(30deg, rgba(0,0,0,0.8029805672268908) 0%, rgba(255,255,255,0) 40%),
+      url('../../assets/app-directions-images/germany-river.png');
+      background-size: 100%;
     }
 
     .city:nth-child(5) {
-      background-image: url('../../assets/app-directions-images/kaliningrad.png');
+      background-image: linear-gradient(30deg, rgba(0,0,0,0.8029805672268908) 0%, rgba(255,255,255,0) 40%),
+      url('../../assets/app-directions-images/kaliningrad.png');
+      background-size: 100%;
     }
 
     .city:nth-child(6) {
-      background-image: url('../../assets/app-directions-images/murmansk.png');
+      background-image: linear-gradient(30deg, rgba(0,0,0,0.8029805672268908) 0%, rgba(255,255,255,0) 40%),
+      url('../../assets/app-directions-images/murmansk.png');
+      background-size: 100%;
     }
   }
 }
